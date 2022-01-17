@@ -91,7 +91,7 @@
 				</div>
 				<div>
 					<label for="image">Imagen:</label>
-					<input type="file" name="image" id="image" bind:value={datosApi.image} />
+					<input type="text" name="image" id="image" bind:value={datosApi.image} />
 				</div>
 				<div>
 					<label for="title">Titulo:</label>
