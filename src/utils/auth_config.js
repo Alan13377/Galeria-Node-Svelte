@@ -1,6 +1,8 @@
+import { isPropertyAccessChain } from 'typescript';
+
 const config = {
-	domain: 'dev-296lzint.us.auth0.com',
-	clientId: 'lfIowXL7Ucn4xfDTcyW9ycmnlcOVvlOW'
+	domain: process.env.DOMAIN_URL,
+	clientId: process.env.CLIENT_ID
 };
 
 export default config;
