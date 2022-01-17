@@ -31,7 +31,7 @@
 				{#if $isAuthenticated}
 					<a class="nav-link" href="/#" on:click={logout}>Log Out</a>
 				{:else}
-					<a class="nav-link" href="/#" on:click={login}>Log In</a>
+					<a class="nav-link navegacion__enlace " href="/#" on:click={login}>Log In</a>
 				{/if}
 			</nav>
 		</div>
