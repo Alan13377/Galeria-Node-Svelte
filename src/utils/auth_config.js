@@ -1,6 +1,6 @@
 const config = {
-	domain: process.env.DOMAIN_URL,
-	clientId: process.env.CLIENT_ID
+	domain: 'dev-296lzint.us.auth0.com',
+	clientId: 'lfIowXL7Ucn4xfDTcyW9ycmnlcOVvlOW'
 };
 
 export default config;
